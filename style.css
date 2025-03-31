@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #750eb9;
+}
+
+#fugir-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background: #ffe710;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;  
+    transition: 0.5s; 
+}
+
+#fugir-botao a{
+    text-decoration: none;
+    color: #750eb9;
+}
+
+#fugir-botao:hover {
+    background: #ffe710;
+}
